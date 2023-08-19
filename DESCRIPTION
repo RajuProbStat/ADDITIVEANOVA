@@ -1,0 +1,12 @@
+Package: AdditiveANOVA
+Type: Package
+Title: Two-way Additive ANOVA
+Version: 0.1.0
+Author: Raju Dey
+Maintainer: Raju Dey <rajudey.cob1997@gmail.com>
+Description: This package contains two functions, namely, Q_1 and Q_2_3. The function Q_1 gives the bootstrap critical point and the observed value of the test statistic Q_1 from a given data. On the other hand, the function Q_2_3 gives the bootstrap critical points and observed values of the test statistics Q_2 and Q_3 from a given data. For testing simultaneous monotone ordering of effects in a Two-Way Additive ANOVA, the test statistics Q_1, Q_2 and Q_3 are constructed.   
+License: GPL-2
+Depends: Iso, matlib
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
