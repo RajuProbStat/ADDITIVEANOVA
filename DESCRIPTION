@@ -1,0 +1,12 @@
+Package: AdditiveANOVA
+Type: Package
+Title: Functions to evaluate the critical and observed values of the test statistics Q_1, Q_2 and Q_3
+Version: 0.1.0
+Author: Raju Dey
+Maintainer: Raju Dey <rajudey.cob1997@gmail.com>
+Description: For testing simultaneous monotone ordering of effects in a Two-Way Additive ANOVA, the test statistics Q_1, Q_2 and Q_3 are constructed. This package contains four functions Q_1, Q_1_data, Q_2_3 and Q_2_3_data. Both the function Q_1 and Q_1_data give the bootstrap critical point and the observed value of the test statistic Q_1. If the cell sample sizes, cell means and cell variances are given then use the function Q_1, and if the data sets are given then use the function Q_1_data. On the other hand, both the function Q_2_3 and Q_2_3_data give the bootstrap critical points and observed values of the test statistics Q_2 and Q_3. If the cell sample sizes, cell means and cell variances are given then use the function Q_2_3, and if the data sets are given then use the function Q_2_3_data.    
+License: GPL-2
+Depends: Iso, matlib
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
