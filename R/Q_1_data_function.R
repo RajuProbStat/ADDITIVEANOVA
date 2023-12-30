@@ -378,7 +378,7 @@ Q_1_data<-function(data,a,b,size){
   mean_boot<-array(NA,c(a,b))
   var_boot<-array(NA,c(a,b))
   MLRT_boot<-rep(NA,B)
-  set.seed(1711997)                        
+  set.seed(17)                        
   for(k in 1:B)
   {
     for(i in 1:a)
