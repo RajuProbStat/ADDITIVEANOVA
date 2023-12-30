@@ -89,7 +89,7 @@ Q_2_3_data<-function(data,a,b,size)
   }
   test1_ob<-min(c(min(c(T1)),min(c(T2))))      #observed value of the test statistic Q_3
   test2_ob<-min(c(max(c(T1)),max(c(T2))))      #observed value of the test statistic Q_2
-  set.seed(1711997)                         
+  set.seed(17)                         
   for(l in 1:B)
   {
     for(i in 1:a)
